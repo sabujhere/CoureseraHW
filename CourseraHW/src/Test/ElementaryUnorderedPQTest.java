@@ -27,11 +27,10 @@ public class ElementaryUnorderedPQTest {
 	}
 	
 	@Test
-	public void delMaxTest() {
-		
+	public void delMaxTest() {		
 		_pq.insert("a");
 		_pq.insert("b");
-		_pq.insert("c");
+		_pq.insert("c");		
 		assertEquals("c", _pq.delMax());
 	}
 
